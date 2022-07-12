@@ -1,5 +1,4 @@
-
-// slcik slider
+//slcik slider
 $( 'document' ).ready( function() {
     $( '.proj-box-wrapper' ).slick( {
     slidesToShow: 4,
@@ -39,6 +38,7 @@ var list = document.getElementsByClassName('customer_list');
 for (var i = 0; i < list.length; i++) {
     array.push(list[i]);
 }
+
 
 var visiArray = [];
 //slice()는 배열의 일부분을 선택하여 새로운 배열을 만듭니다.
@@ -132,6 +132,7 @@ function preventClick(e){
     e.preventDefault()
 }
 
+
 var bannerTextWrap = document.getElementsByClassName('bannerText-wrap')[0]
 var width = bannerTextWrap.clientWidth;
 var halfWidth = width / 2;
@@ -189,5 +190,3 @@ var container = document.getElementById('map'); //지도를 담을 영역의 DOM
     // 마커가 지도 위에 표시되도록 설정합니다
     marker.setMap(map);
     //애니메이션 -> wow로 대체
-
-
